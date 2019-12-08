@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestsSample", "IntegrationTestsSample.csproj", "{B1E64B21-BD4F-440F-BCD3-283CF697DFB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C70C00B3-F281-49C9-A1F4-633469468502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RazorPages", "RazorPages", "{8BA04148-C03D-4D3D-B7BA-0DBCC4AFB977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7AF15EA2-F862-4B76-9B43-2E43F6720CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesProject.Tests", "..\RazorPagesProject.Tests\RazorPagesProject.Tests.csproj", "{174015B0-61AA-48F1-A825-5D902FED9809}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1E64B21-BD4F-440F-BCD3-283CF697DFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E64B21-BD4F-440F-BCD3-283CF697DFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E64B21-BD4F-440F-BCD3-283CF697DFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E64B21-BD4F-440F-BCD3-283CF697DFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174015B0-61AA-48F1-A825-5D902FED9809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174015B0-61AA-48F1-A825-5D902FED9809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174015B0-61AA-48F1-A825-5D902FED9809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174015B0-61AA-48F1-A825-5D902FED9809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1E64B21-BD4F-440F-BCD3-283CF697DFB2} = {8BA04148-C03D-4D3D-B7BA-0DBCC4AFB977}
+		{8BA04148-C03D-4D3D-B7BA-0DBCC4AFB977} = {C70C00B3-F281-49C9-A1F4-633469468502}
+		{7AF15EA2-F862-4B76-9B43-2E43F6720CD9} = {C70C00B3-F281-49C9-A1F4-633469468502}
+		{174015B0-61AA-48F1-A825-5D902FED9809} = {7AF15EA2-F862-4B76-9B43-2E43F6720CD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D590EB0-557B-4EC7-92B0-53E21CE2C8F8}
+	EndGlobalSection
+EndGlobal
